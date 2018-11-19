@@ -1,0 +1,184 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+body {
+	background-color: #02010a;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+
+/** EMPIEZA EL CSS DEL SITIO WEB PAISAJES **/
+
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	animation: slidein 1s;
+
+}
+
+header {
+	border-radius: 10px 10px 0px 0px;
+	background-color: #5b7989;
+	padding: 20px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	box-shadow: 2px 2px #02010a; 
+}
+
+header nav a{
+	font-size: 30px;
+	color: #fff;
+} 
+
+.imgcontenedor {
+	background-color: #82c3a6;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.imgcentrada {
+}
+
+.imgcontenedor1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #d5c75f;
+	border: 1px solid black;
+	padding: 20px;
+
+}
+
+.imgconte {
+	padding: 10px;
+}
+
+.imgizquierda {
+	box-shadow: 2px 2px #02010a;
+}
+
+.imgizquierda:hover {
+	transform: rotate(10deg);
+	box-shadow: 2px 2px #82c3a6;
+}
+
+.imgderecha {
+	box-shadow: 2px 2px #02010a;
+}
+
+.imgderecha:hover {
+	transform: translate(20px,-5px);
+	box-shadow: 2px 2px #82c3a6;
+}
+
+footer {
+	border-radius: 0px 0px 10px 10px;
+	background-color: #C6d5c5;
+	color: #000;
+}
+
+
+.footer {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+p {
+	font-size: 30px;
+}
+
+.bloque1,.bloque2,.bloque3,.bloque4 {
+	padding: 10px;
+}
+
+/** TERMINA EL CSS DEL SITIO WEB INDEX **/
+
+
+
+
+/** EMPIEZA EL CSS DEL SITIO WEB PAISAJES **/
+
+ .imgBlue {
+ 	filter: blur(6px);
+ 	padding: 5px;
+ }
+
+ .imggray {
+ 	filter: grayscale(100%);
+ 	padding: 5px;
+ }
+
+ .imgsepia {
+ 	filter: sepia(90%);
+ 	 padding: 5px;
+ }
+
+ .imgnorm {
+ 	 padding: 5px;
+ }
+
+ /** TERMINA EL CSS DEL SITIO WEB PAISAJES **/
+
+
+
+
+
+ /** EMPIEZA EL MEDIA DEL SITIO WEB  **/
+
+@media screen and (max-width: 900px) {
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imgcontenedor1{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.footer{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.imgcontenedor {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+}
+
+
+ 
+ /** TERMINA EL MEDIA DEL SITIO WEB  **/
+
+
+@-webkit-keyframes slidein {
+	0% {margin-top: 150%;}
+	60% {margin-top: -5%;}
+	100% {margin-top: 0%;}
+
+
+}
+
+
